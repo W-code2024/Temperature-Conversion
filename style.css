@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: yellow 5px solid;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 40%;
+    height: 80vh;
+    box-shadow: 0px 0px 10px 5px rgba(255, 223, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgba(255, 223, 0, 0.5);
+}
+
+.UserInputLabel{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: rgb(100, 100, 253);
+    font-weight: bolder;
+}
+
+#UserInput{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.ConversionSelector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    border: rgb(68, 68, 253) 5px solid;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 0px 15px 10px rgba(68, 68, 253, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.ConversionSelector:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgba(68, 68, 253, 0.9);
+}
+
+.selector1 label{
+    font-size: 2rem;
+}
+
+.selector2 label{
+    font-size: 2rem;
+}
+
+.selector1 input, .selector2 input{
+    transform: scale(1.5);
+    margin: 10px;   
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#ConvertButton{
+    font-size: 1.75rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(68, 68, 253);
+    box-shadow: 0px 0px 15px 10px rgba(68, 68, 253, 0.3);
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#ConvertButton:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px 10px rgba(68, 68, 253, 0.5);
+}
